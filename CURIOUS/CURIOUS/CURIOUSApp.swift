@@ -11,6 +11,7 @@ import SwiftUI
 struct CURIOUSApp: App {
     var body: some Scene {
         WindowGroup {
+            //Home()
             ContentView()
             
         }

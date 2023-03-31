@@ -9,8 +9,23 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            
+        VStack{Image(systemName: "brain")
+                .imageScale(.large)
+                .font(.system(size:25))
+                .foregroundColor(.orange)
+            Text("cu·​ri·​ous")
+                .font(.system(size:25))
+                .padding(.top)
+            Text("Curious")
+                .multilineTextAlignment(.center)
+                .font(.system(size:50))
+                .foregroundColor(.orange)
+            Text("eager to know or learn something")
+                .font(.system(size:26))
+                //.padding(.system(size:2))
+                .padding(.top, -30)
+            .padding()
+        }
     }
 }
 
